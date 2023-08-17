@@ -1,0 +1,22 @@
+.footer {
+  border-top: solid 1px white;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  width: 100%;
+  padding: 0.7rem;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  margin-top: 20px;
+}
+
+.web {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.web_display {
+  margin-left: -40px;
+}

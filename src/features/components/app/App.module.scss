@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url("/public/abstract-minimalist-black-marble-texture-luxury-ceramic-stone-background-vector\ 1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}

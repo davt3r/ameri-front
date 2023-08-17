@@ -1,0 +1,34 @@
+.error {
+  display: flex;
+  width: 393px;
+  height: 164px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 100px;
+  font-family: "Lexend Tera", "Arial";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_error {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #d0cfcf;
+  font-size: 20px;
+  font-family: "Lexend Tera", "Arial";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.error_div {
+  display: flex;
+  height: 36vw;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 132px;
+}

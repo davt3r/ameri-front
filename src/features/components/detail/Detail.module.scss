@@ -1,0 +1,140 @@
+.card_structure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  border-radius: 10%;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Lexend Tera", "Arial";
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  word-spacing: 0.2rem;
+  height: 50vw;
+  width: 100%;
+}
+
+.detail {
+  letter-spacing: 0.05rem;
+  width: 400px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.season {
+  margin: 5px;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.delete {
+  width: 100px;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lexend Tera", "Arial";
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 60px;
+  min-width: 0;
+  width: 150px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.delete:disabled {
+  pointer-events: none;
+}
+
+.delete:hover {
+  color: #000000;
+  background-color: #fff;
+  box-shadow: rgba(255, 255, 255, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.delete:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.edit_button {
+  color: #ffffff;
+  width: 100px;
+}
+
+.edit_button {
+  width: 100px;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lexend Tera", "Arial";
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 60px;
+  min-width: 0;
+  width: 150px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edit_button:disabled {
+  pointer-events: none;
+}
+
+.edit_button:hover {
+  color: #000000;
+  background-color: #fff;
+  box-shadow: rgba(255, 255, 255, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.edit_button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
